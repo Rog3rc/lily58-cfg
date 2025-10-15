@@ -10,15 +10,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        ene: ene {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RGUI>;
-            label = "ENE";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
