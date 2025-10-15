@@ -15,13 +15,7 @@
         compatible = "zmk,behavior-macro";
         label = "ENE";
         #binding-cells = <0>;
-        bindings = <
-            &macro_press &kp LALT
-            &macro_tap &kp KP_1
-            &macro_tap &kp KP_6
-            &macro_tap &kp KP_4
-            &macro_release &kp LALT
-        >;
+        bindings = <&kp LALT &kp KP_1 &kp KP_6 &kp KP_4>;
         };
     };
 
