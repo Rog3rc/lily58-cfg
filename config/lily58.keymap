@@ -12,10 +12,17 @@
 / {
     macros {
         ene: ene {
-        compatible = "zmk,behavior-macro";
-        label = "ENE";
-        #binding-cells = <0>;
-        bindings = <&kp RALT &kp N>;
+            compatible = "zmk,behavior-macro";
+            label = "ENE";
+            #binding-cells = <0>;
+            bindings = <&kp RALT &kp N>;
+        };
+
+        copy: copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RCTRL &kp C>;
+            label = "COPY";
         };
     };
 
