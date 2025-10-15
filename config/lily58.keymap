@@ -26,6 +26,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        enec {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <44>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
