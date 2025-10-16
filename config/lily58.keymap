@@ -75,15 +75,5 @@
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
-
-        testing {
-            bindings = <
-&trans  &trans          &trans          &trans           &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &kp UP_ARROW    &trans           &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RALT  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans           &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans           &trans    &trans  &trans    &trans  &trans  &trans  &trans
-            >;
-        };
     };
 };
