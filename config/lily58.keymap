@@ -85,6 +85,8 @@
 &trans  &trans          &trans          &trans           &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
                                         &trans           &trans  &trans  &trans    &trans  &trans  &trans     &trans
             >;
+
+            label = "mouse";
         };
     };
 };
